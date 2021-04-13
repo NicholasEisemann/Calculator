@@ -1,17 +1,20 @@
 ﻿<Properties StartupConfiguration="{3AC6D829-B9EE-4213-9492-0F55EBC81463}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator.Android/MainActivity.cs">
     <Files>
       <File FileName="Calculator/MainPage.xaml" Line="7" Column="1" IsPinned="True" />
       <File FileName="Calculator/MainPage.xaml.cs" Line="8" Column="19" IsPinned="True" />
+      <File FileName="Calculator.Android/MainActivity.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Calculator" expanded="True">
             <Node name="Calculator" expanded="True">
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Calculator.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="MainActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>

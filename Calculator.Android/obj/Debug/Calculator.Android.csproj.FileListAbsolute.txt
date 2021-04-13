@@ -205,8 +205,6 @@
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/assets/Xamarin.Google.Guava.ListenableFuture.dll
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.arm64-v8a.s
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.armeabi-v7a.s
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.x86.s
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.x86_64.s
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.armeabi-v7a-shared.inc
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.shared.inc
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/AndroidManifest.xml
@@ -219,8 +217,6 @@
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/buildid.txt
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.arm64-v8a.s
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.armeabi-v7a.s
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.x86.s
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.x86_64.s
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/src/androidx/appcompat/app/AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/src/androidx/appcompat/app/AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/src/androidx/appcompat/app/AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
@@ -548,24 +544,14 @@
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/src/nicholaseisemann_gmail/com/calculator/R.java
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.arm64-v8a.s
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.armeabi-v7a.s
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.x86.s
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.x86_64.s
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.arm64-v8a.o
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.armeabi-v7a.o
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.x86.o
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/typemaps.x86_64.o
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.arm64-v8a.o
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.armeabi-v7a.o
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.x86.o
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/environment.x86_64.o
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.arm64-v8a.o
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.armeabi-v7a.o
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.x86.o
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/compressed_assemblies.x86_64.o
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/app_shared_libraries/arm64-v8a/libxamarin-app.so
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/app_shared_libraries/armeabi-v7a/libxamarin-app.so
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/app_shared_libraries/x86/libxamarin-app.so
-/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/app_shared_libraries/x86_64/libxamarin-app.so
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/android/bin/classes.dex
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/stamp/_CleanIntermediateIfNeeded.stamp
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/stamp/_CompileToDalvik.stamp
@@ -574,3 +560,4 @@
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator.Android/obj/Debug/res/drawable/icon.png
