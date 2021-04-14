@@ -26,7 +26,7 @@ namespace Calculator
             public static double Calc(string Expression)
             {
                 // Очистим нашу строку от "мусора" в лице пробелов и прочих нехороших знаков
-                Expression = string.Concat(Expression.Where(x => char.IsDigit(x) || Operators.ContainsKey(x) || x == ','));
+                Expression = string.Concat(Expression.Where(x => char.IsDigit(x) || Operators.ContainsKey(x) || x == '.'));
 
                 try
                 {
@@ -39,7 +39,7 @@ namespace Calculator
                     char op = '\0';
 
                     // Считаем переменную a из строки
-                    while (end < Expression.Length && (char.IsDigit(Expression[end]) || Expression[end] == ','))
+                    while (end < Expression.Length && (char.IsDigit(Expression[end]) || Expression[end] == '.'))
                         end++;
                     a = Expression.Substring(0, end);
 
@@ -53,12 +53,14 @@ namespace Calculator
                     begin = end;
 
                     // Считаем переменную b
-                    while (end < Expression.Length && (char.IsDigit(Expression[end]) || Expression[end] == ','))
+                    while (end < Expression.Length && (char.IsDigit(Expression[end]) || Expression[end] == '.'))
                         end++;
                     b = Expression.Substring(begin, end - begin);
 
+
                     // Достанем из словаря нужную нам функцию и запустим ее с двумя параметрами
                     return Operators[op](double.Parse(a), double.Parse(b));
+                    
                 }
                 catch
                 {
@@ -67,6 +69,8 @@ namespace Calculator
                 }
             }
         }
+
+
 
 
 
@@ -150,6 +154,7 @@ namespace Calculator
             double equally = Calculator.Calc(LableText.Text);
             string v = equally.ToString();
             LableText.Text = v;
+
         }
 
         void Button_Clicked_share(System.Object sender, System.EventArgs e)
@@ -159,7 +164,15 @@ namespace Calculator
 
         void Button_Clicked_comma(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + ",";
+            LableText.Text = LableText.Text + ".";
+        }
+
+        void Button_Clicked_percent(System.Object sender, System.EventArgs e)
+        {
+            double equally = Calculator.Calc(LableText.Text);
+            double num = equally / 100;
+            string v = num.ToString();
+            LableText.Text = v;
         }
     }
 
