@@ -1,0 +1,14 @@
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/bin/Release/netstandard2.0/Calculator.deps.json
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/bin/Release/netstandard2.0/Calculator.dll
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/bin/Release/netstandard2.0/ref/Calculator.dll
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/bin/Release/netstandard2.0/Calculator.pdb
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/Calculator.csprojAssemblyReference.cache
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/Calculator.AssemblyInfoInputs.cache
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/Calculator.AssemblyInfo.cs
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/XamlC.stamp
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/Calculator.dll
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/ref/Calculator.dll
+/Users/nicholaseisemann/Desktop/C#_Project/Calculator/Calculator/obj/Release/netstandard2.0/Calculator.pdb

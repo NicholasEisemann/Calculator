@@ -3,8 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Calculator.MainPage"
              Title="Calculator">
-
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -19,8 +17,6 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-
-
 
         <Label x:Name="LableText"
                Text="0"
@@ -132,7 +128,7 @@
                 FontSize="Title"
                 Grid.Row="5"
                 Grid.Column="2"
-                Margin="0,0,-103,0"
+                Margin="0,0,-104,0"
                 Background="#807F7E"
                 Clicked="Button_Clicked_equally"/>
 
@@ -157,7 +153,6 @@
                 Background="#A7A7A5"
                 Clicked="Button_Clicked_percent"/>
 
-        
     </Grid>
 
 </ContentPage>

@@ -91,47 +91,110 @@ namespace Calculator
 
         void Button_Clicked_1(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "1";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "1";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "1";
+            }
         }
 
         void Button_Clicked_2(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "2";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "2";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "2";
+            }
         }
 
         void Button_Clicked_3(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "3";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "3";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "3";
+            }
         }
 
         void Button_Clicked_4(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "4";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "4";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "4";
+            }
         }
 
         void Button_Clicked_5(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "5";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "5";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "5";
+            }
         }
 
         void Button_Clicked_6(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "6";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "6";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "6";
+            }
         }
 
         void Button_Clicked_7(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "7";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "7";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "7";
+            }
         }
 
         void Button_Clicked_8(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "8";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "8";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "8";
+            }
         }
 
         void Button_Clicked_9(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "9";
+            if (LableText.Text == "0")
+            {
+                LableText.Text = "9";
+            }
+            else
+            {
+                LableText.Text = LableText.Text + "9";
+            }
         }
 
         void Button_Clicked_plus(System.Object sender, System.EventArgs e)
