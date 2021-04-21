@@ -1,30 +1,29 @@
 ﻿<Properties StartupConfiguration="{3AC6D829-B9EE-4213-9492-0F55EBC81463}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator.Android/Properties/AndroidManifest.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator/MainPage.xaml.cs">
     <Files>
-      <File FileName="Calculator/MainPage.xaml" Line="1" Column="1" IsPinned="True" />
-      <File FileName="Calculator/MainPage.xaml.cs" Line="89" Column="51" IsPinned="True" />
-      <File FileName="Calculator.Android/Properties/AndroidManifest.xml" Line="4" Column="3" />
+      <File FileName="Calculator/MainPage.xaml" Line="169" Column="1" IsPinned="True" />
+      <File FileName="Calculator/MainPage.xaml.cs" Line="72" Column="1" IsPinned="True" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Calculator" expanded="True">
             <Node name="Calculator" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" />
-            </Node>
-            <Node name="Calculator.Android" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="AndroidManifest.xml" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Calculator.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.Calculator.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -237,6 +237,34 @@ namespace Calculator
             string v = num.ToString();
             LableText.Text = v;
         }
+
+        void Button_Clicked_degree(System.Object sender, System.EventArgs e)
+        {
+            if (LableText.Text != "")
+            {
+                double equally = Calculator.Calc(LableText.Text);
+                double num = equally * equally;
+                string v = num.ToString();
+                LableText.Text = v;
+            }
+            else
+            {
+                LableText.Text = "";
+            }
+        }
+
+        void Button_Clicked_С(System.Object sender, System.EventArgs e)
+        {
+            if (LableText.Text != "")
+            {
+                string x = Convert.ToString(LableText.Text.Remove((LableText.Text.Length - 1), 1));
+                LableText.Text = x;
+            }
+            else
+            {
+                LableText.Text = "";
+            }
+        }
     }
 
 

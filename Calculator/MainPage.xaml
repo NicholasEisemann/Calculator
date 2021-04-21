@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Calculator.MainPage"
              Title="Calculator">
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -28,20 +29,21 @@
         <Button x:Name="One"
                 Text="1"
                 FontSize="Title"
-                Grid.Row="1"
+                Grid.Row="2"
+                Grid.Column="0"
                 Background="#FF9900"
                 Clicked="Button_Clicked_1"/>
 
         <Button Text="2"
                 FontSize="Title"
-                Grid.Row="1"
+                Grid.Row="2"
                 Grid.Column="1"
                 Background="#FF9900"
                 Clicked="Button_Clicked_2"/>
 
         <Button Text="3"
                 FontSize="Title"
-                Grid.Row="1"
+                Grid.Row="2"
                 Grid.Column="2"
                 Background="#FF9900"
                 Clicked="Button_Clicked_3"/>
@@ -55,21 +57,21 @@
 
         <Button Text="4"
                 FontSize="Title"
-                Grid.Row="2"
+                Grid.Row="3"
                 Grid.Column="0"
                 Background="#FF9900"
                 Clicked="Button_Clicked_4"/>
 
         <Button Text="5"
                 FontSize="Title"
-                Grid.Row="2"
+                Grid.Row="3"
                 Grid.Column="1"
                 Background="#FF9900"
                 Clicked="Button_Clicked_5"/>
 
         <Button Text="6"
                 FontSize="Title"
-                Grid.Row="2"
+                Grid.Row="3"
                 Grid.Column="2"
                 Background="#FF9900"
                 Clicked="Button_Clicked_6"/>
@@ -83,21 +85,21 @@
 
         <Button Text="7"
                 FontSize="Title"
-                Grid.Row="3"
+                Grid.Row="4"
                 Grid.Column="0"
                 Background="#FF9900"
                 Clicked="Button_Clicked_7"/>
 
         <Button Text="8"
                 FontSize="Title"
-                Grid.Row="3"
+                Grid.Row="4"
                 Grid.Column="1"
                 Background="#FF9900"
                 Clicked="Button_Clicked_8"/>
 
         <Button Text="9"
                 FontSize="Title"
-                Grid.Row="3"
+                Grid.Row="4"
                 Grid.Column="2"
                 Background="#FF9900"
                 Clicked="Button_Clicked_9"/>
@@ -111,25 +113,23 @@
 
         <Button Text="AC"
                 FontSize="Title"
-                Grid.Row="5"
+                Grid.Row="1"
                 Grid.Column="0"
                 Background="#807F7E"
                 Clicked="Button_Clicked_AC"/>
 
         <Button Text="0"
                 FontSize="Title"
-                Grid.Row="4"
+                Grid.Row="5"
                 Grid.Column="0"
-                Margin="0,0,-103,0"
                 Background="#FF9900"
                 Clicked="Button_Clicked_0"/>
 
         <Button Text="="
                 FontSize="Title"
                 Grid.Row="5"
-                Grid.Column="2"
-                Margin="0,0,-104,0"
-                Background="#807F7E"
+                Grid.Column="1"
+                Background="#A7A7A5"
                 Clicked="Button_Clicked_equally"/>
 
         <Button Text="/"
@@ -142,17 +142,33 @@
         <Button Text="."
                 FontSize="Title"
                 Grid.Row="5"
-                Grid.Column="1"
-                Background="#807F7E"
+                Grid.Column="2"
+                Background="#A7A7A5"
                 Clicked="Button_Clicked_comma"/>
 
         <Button Text="%"
                 FontSize="Title"
-                Grid.Row="4"
-                Grid.Column="2"
+                Grid.Row="5"
+                Grid.Column="3"
                 Background="#A7A7A5"
                 Clicked="Button_Clicked_percent"/>
 
+        <Button Text="x\2"
+                FontSize="Title"
+                Grid.Row="1"
+                Grid.Column="2"
+                Background="#807F7E"
+                Clicked="Button_Clicked_degree"/>
+
+        <Button Text="C"
+                FontSize="Title"
+                Grid.Row="1"
+                Grid.Column="1"
+                Background="#807F7E"
+                Clicked="Button_Clicked_С"/>
+
+
     </Grid>
+
 
 </ContentPage>

@@ -17,7 +17,7 @@
 
 	/* 1: Calculator.dll */
 	/* uncompressed_file_size */
-	.word	19456
+	.word	19968
 	/* loaded */
 	.byte	0
 	/* data */

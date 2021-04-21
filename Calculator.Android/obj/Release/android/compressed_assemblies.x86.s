@@ -16,7 +16,7 @@
 
 	/* 1: Calculator.dll */
 	/* uncompressed_file_size */
-	.long	19456
+	.long	19968
 	/* loaded */
 	.byte	0
 	/* data */
