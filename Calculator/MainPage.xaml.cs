@@ -70,10 +70,6 @@ namespace Calculator
             }
         }
 
-
-
-
-
         public MainPage()
         {
             InitializeComponent();
@@ -199,43 +195,91 @@ namespace Calculator
 
         void Button_Clicked_plus(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "+";
+            if (LableText.Text != "")
+            {
+                LableText.Text = LableText.Text + "+";
+            }
+            else
+            {
+                LableText.Text = "";
+            }
         }
 
         void Button_Clicked_minus(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "-";
+            if (LableText.Text != "")
+            {
+                LableText.Text = LableText.Text + "-";
+            }
+            else
+            {
+                LableText.Text = "";
+            }
         }
 
         void Button_Clicked_multiply(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "*";
+            if (LableText.Text != "")
+            {
+                LableText.Text = LableText.Text + "*";
+            }
+            else
+            {
+                LableText.Text = "";
+            }
         }
 
         void Button_Clicked_equally(System.Object sender, System.EventArgs e)
         {
-            double equally = Calculator.Calc(LableText.Text);
-            string v = equally.ToString();
-            LableText.Text = v;
-
+            if (LableText.Text != "")
+            {
+                double equally = Calculator.Calc(LableText.Text);
+                string v = equally.ToString();
+                LableText.Text = v;
+            }
+            else
+            {
+                LableText.Text = "";
+            }
         }
 
         void Button_Clicked_share(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + "/";
+            if (LableText.Text != "")
+            {
+                LableText.Text = LableText.Text + "/";
+            }
+            else
+            {
+                LableText.Text = "";
+            }
         }
 
         void Button_Clicked_comma(System.Object sender, System.EventArgs e)
         {
-            LableText.Text = LableText.Text + ".";
+            if (LableText.Text != "")
+            {
+                LableText.Text = LableText.Text + ".";
+            }
+            else
+            {
+                LableText.Text = "";
+            }
         }
 
         void Button_Clicked_percent(System.Object sender, System.EventArgs e)
         {
-            double equally = Calculator.Calc(LableText.Text);
-            double num = equally / 100;
-            string v = num.ToString();
-            LableText.Text = v;
+            if (LableText.Text != "")
+            {
+                double equally = Calculator.Calc(LableText.Text);
+                double num = equally / 100;
+                string v = num.ToString();
+                LableText.Text = v;
+            }
+            else
+            {
+                LableText.Text = "";
+            }
         }
 
         void Button_Clicked_degree(System.Object sender, System.EventArgs e)
